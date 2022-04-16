@@ -1,7 +1,28 @@
 :root {
-  --primary-text-color: #212121;
+  --main-text-color: #212121;
+  --secondary-color: #757575;
+  --color-for-buttons: ;
 }
 
 body {
-  color: var(--primary-text-color);
+  color: var(--main-text-color);
+}
+.buisness-section {
+  background-color: #2f303a;
+}
+/* site-nav */
+.site-nav a {
+  color: var(--main-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--color-for-buttons);
+}
+/* contacts nav */
+.contacts-nav a {
+  color: var(--secondary-color);
+}
+.contacts-nav .link:focus,
+.contacts-nav .link:hover {
+  color: var(--color-for-buttons);
 }
