@@ -42,24 +42,25 @@ body {
 /* hero */
 .hero-section {
   background-color: #2f303a;
+  text-align: center;
 }
 .hero-title {
-  color: #ffffff;
+  margin-top: 0px;
+}
+.hero-text {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  background: #2f303a;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
 }
 
 .button-text:hover,
 .button-text:focus {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  text-align: center;
 }
 
 /* about section */
@@ -159,6 +160,7 @@ body {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  text-align: center;
 }
 
 .button:hover,
