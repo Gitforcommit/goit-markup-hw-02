@@ -8,37 +8,44 @@ body {
   color: var(--main-text-color);
   font-family: Roboto, sans-serif, Verdana, Geneva, Tahoma, sans-serif;
 }
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
 
 .header-background {
   color: #ffffff;
 }
 
+.text-decor {
+  text-decoration: none;
+}
+
 /* Logo */
 
 .logo {
-  font-family: Raleway sans-serif;
   color: var(--main-text-color);
+}
+.logo-part {
+  color: #2196f3;
+}
+.logo-link {
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: inline-block;
 }
-.logo-part {
-  font-family: Raleway sans-serif;
-  color: #2196f3;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  display: inline-block;
-}
-.logo-link {
-  text-decoration: none;
-}
+.logo-footer {
+    color: white;
 
+}
 /* hero */
 .hero-section {
   background-color: #2f303a;
@@ -57,17 +64,17 @@ body {
   color: #ffffff;
 }
 
-.button-text:hover,
+/* .button-text:hover,
 .button-text:focus {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  text-align: center;
+  text-align: center; */
 }
 
 /* about section */
 
-.style-none {
+/* .style-none {
   list-style: none;
-}
+} */
 
 .about-title {
   font-weight: 700;
@@ -100,6 +107,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  background-color: #F5F4FA;
 }
 
 .team-names {
@@ -148,6 +156,10 @@ body {
 .link-contacts {
   color: var(--secondary-color);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .link-contacts:focus,
 .link-contacts:hover {
@@ -165,7 +177,7 @@ body {
 
 .button:hover,
 .button:focus {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: #188CE8;
 }
 
 .cursor {
@@ -178,13 +190,11 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  /* identical to box height, or 200% */
-
-  letter-spacing: 0.06em;
-}
+list-style: none;
+letter-spacing: 0.06em;}
 
 .button-portfolio {
-  background: #f5f4fa;
+  background-color: #f5f4fa;
   border-radius: 4px;
 }
 
@@ -202,6 +212,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+  list-style: none;
 }
 .adress {
   font-weight: 400;
