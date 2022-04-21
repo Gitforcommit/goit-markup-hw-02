@@ -29,6 +29,7 @@ a {
 
 .logo {
   color: var(--main-text-color);
+  margin-left: -7px;
 }
 .logo-part {
   color: #2196f3;
@@ -44,6 +45,7 @@ a {
 }
 .logo-footer {
     color: white;
+    margin-left: -7px;
 
 }
 /* hero */
